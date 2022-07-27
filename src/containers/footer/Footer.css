@@ -1,0 +1,131 @@
+.footer{
+  display:flex;
+  border:1px solid whitesmoke;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-footer);
+}
+
+.footer_heading{
+  width:100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.footer_heading h1{
+font-family:var(--font-family) ;
+font-size:62px;
+line-height:75px ;
+font-weight:800;
+text-align: center;
+letter-spacing: -0.04em;
+
+}
+.footer_btn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
+  border:1px solid #ffffff;
+  text-align: center;
+  margin-bottom: 10rem;
+  cursor: pointer;
+}
+.footer_btn p{
+
+box-sizing: border-box;
+font-family: var(--font-family);
+font-size:18px;
+line-height:21px;
+color:#ffffff;
+word-spacing: 2px;
+}
+
+.footer_links{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  text-align: left;
+}
+.footer_links div{
+width:250px;
+margin:1rem;
+}
+.footer_links_logo{
+
+  display:flex;
+  flex-direction: column;
+
+}
+.footer_links_logo img{
+  width:118px;height:30px;
+
+  margin-bottom:30px;
+}
+.footer_links_logo p{
+  font-family: var(--font-family);
+font-size:12px;
+line-height:14px;
+color:#ffffff;
+}
+
+.footer_links_div{
+display:flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.footer_links_div h4{
+  font-family: var(--font-family);
+font-size:14px;
+line-height:16px;
+color:#ffffff;
+margin-bottom: 1rem;
+}
+
+.footer_links_div p{
+  font-family: var(--font-family);
+font-size:12px;
+line-height:14px;
+color:#ffffff;
+margin:0.5rem 0;
+cursor:pointer;
+}
+
+.footer_copyright{
+  margin-top:2rem;
+  text-align: center;
+  width:100%;
+}
+.footer_copyright p{
+  font-family: var(--font-family);
+  font-size:12px;
+  line-height:14px;
+  color:#ffffff;
+ 
+}
+
+@media screen and (max-width:850px) {
+  .footer_heading h1{
+    font-size:44px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width:550px) {
+
+  .footer_heading h1{font-size:27px;
+    line-height: 38px;
+  }
+
+  .footer_links div{
+    margin:1rem 0;
+  }
+  .footer_btn p{
+    font-size: 14px;
+    line-height:20px;
+  }
+}

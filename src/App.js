@@ -19,7 +19,8 @@ const App=()=> {
       <CTA />
       <Blog/>
       <Footer/>
-      <p>xnsxbznc</p>
+      <p color='white'>xnsxbznc</p>
+      <Footer/>
     </div>
   );
 }

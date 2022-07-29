@@ -19,6 +19,7 @@ const App=()=> {
       <CTA />
       <Blog/>
       <Footer/>
+      <p>xnsxbznc</p>
     </div>
   );
 }
